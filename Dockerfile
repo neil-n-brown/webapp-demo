@@ -1,4 +1,5 @@
-FROM 10.106.202.68/docker/neilnbrown/tomcat-admin
+#FROM 10.106.202.68/docker/neilnbrown/tomcat-admin
+FROM neilnbrown/tomcat-admin
 
 COPY target/webapp.war /usr/local/tomcat/webapps/
 

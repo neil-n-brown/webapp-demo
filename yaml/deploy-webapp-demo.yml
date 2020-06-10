@@ -17,6 +17,8 @@ spec:
     spec:
       containers:
       - name: webapp-demo
-        image: 10.106.202.68/docker/neilnbrown/webapp-dem
+        image: neilnbrown/webapp-demo
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: regcred
