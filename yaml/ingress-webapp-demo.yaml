@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: webapp-demo-ingress
+  namespace: webapp-demo
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /webapp
+        backend:
+          serviceName: webapp-demo-service
+          servicePort: 80

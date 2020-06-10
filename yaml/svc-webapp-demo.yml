@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webapp-demo-service
+  namespace: webapp-demo
+spec:
+  selector:
+    app: webapp-demo
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080

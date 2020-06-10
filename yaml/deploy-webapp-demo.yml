@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapp-demo
+  namespace: webapp-demo
+  labels:
+    app: webapp-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: webapp-demo
+  template:
+    metadata:
+      labels:
+        app: webapp-demo
+    spec:
+      containers:
+      - name: webapp-demo
+        image: 10.106.202.68/docker/neilnbrown/webapp-dem
+        ports:
+        - containerPort: 8080
