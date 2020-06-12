@@ -1,6 +1,6 @@
 FROM neilnbrown/tomcat-admin
 
-COPY target/webapp.war /usr/local/tomcat/webapps/
+COPY ${bamboo.working.directory}/target/webapp-demo/webapp.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
