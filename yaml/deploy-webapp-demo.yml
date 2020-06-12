@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
       - name: webapp-demo
-        image: neilnbrown/webapp-demo
+        image: neilnbrown/webapp-demo4
         ports:
         - containerPort: 8080
-      imagePullSecrets:
-        - name: regcred
+      # imagePullSecrets:
+      #   - name: regcred
