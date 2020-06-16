@@ -51,7 +51,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Demo Web App v1.0</h1>
+        <h1>Web App Demo v1.0</h1>
         <p>This is an example java application to demonstrate Bamboo Builds & Deployments. </p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
     </div>
