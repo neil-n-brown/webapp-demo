@@ -1,4 +1,4 @@
-This is a sample Web Application to use during Continuous Integration demos.
+This is a simple Web App to use during Continuous Integration Deployment demos.
 
 #Build Instruction
 
@@ -6,10 +6,25 @@ This is a sample Web Application to use during Continuous Integration demos.
 mvn3 clean package
 ```
 
-#Deploy instruction
 
-Deploy ```target/WebApp.war``` on Tomcat
- 
+#Docker Build instruction
+
+```
+See Dockerfile
+```
+
+Dockerfile builds image with ```webapp.war``` running on Tomcat Server
+
+
+#k8s Deployment
+
+Please note:  kubectl must be installed on Build Agent and AKS Cluster Access Tokens added to ```$HOME/.kube/config``` file.
+
+```
+cd yaml
+
+kubectl apply -f .
+```
 
 
 
