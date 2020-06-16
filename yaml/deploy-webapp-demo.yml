@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webapp-demo
-        image: neilnbrown/webapp-demo4
+        image: mhsaacruat01.azurecr.io/samples/webappdemo
         ports:
         - containerPort: 8080
       # imagePullSecrets:
