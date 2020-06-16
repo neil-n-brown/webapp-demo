@@ -62,12 +62,12 @@
     <div class="row">
         <div class="col-md-4">
             <h2>Code Repository</h2>
-            <p>You can find the Bitbucket code repository for the application here: http://hkbitbucket.hkg.mizuho-sc.com:7990/projects/BD/repos/webapp-master/browse But please remember this is the URL to view the repo not the SSH URL to clone the repo. </p>
+            <p>The code repository for this application contains both the source code, dockerfile and the deployment yaml files </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>Deployment Dependencies</h2>
-            <p>The application is deployed using Tomcat7. You can find Tomcat Server config at: hklxfojird003v:/usr/share/tomcat/conf Please note that configuration ports are different to the default as we have two instances of tomcat running. This tomcat server runs on Port 8181</p>
+            <p>The application is deployed using Tomcat. </p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
